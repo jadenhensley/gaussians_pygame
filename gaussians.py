@@ -51,12 +51,12 @@ class BarChart():
 
         c = abs(int(h))
         
-        # rc = clamp_rgb(c, 0, 50)
-        # gc = clamp_rgb(c, 100, 255)
-        rc = clamp_rgb(c, 170, 255)
-        gc = clamp_rgb(c, 0, 20)
-        # bc = clamp_rgb(c, 80, 120)
-        bc = clamp_rgb(c, 0, 20)
+        rc = clamp_rgb(c, 0, 50)
+        gc = clamp_rgb(c, 100, 255)
+        # rc = clamp_rgb(c, 170, 255)
+        # gc = clamp_rgb(c, 0, 20)
+        bc = clamp_rgb(c, 80, 120)
+        # bc = clamp_rgb(c, 0, 20)
         
         self.color = (rc,gc,bc,10)
 
